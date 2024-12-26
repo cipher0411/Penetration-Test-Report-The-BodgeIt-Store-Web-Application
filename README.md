@@ -32,6 +32,9 @@ The following ports were identified as vulnerable:
      - Enable **Security Headers** (e.g., HSTS, X-Frame-Options, CSP).
      - Regularly **patch and update** web server software.
      - Deploy a **Web Application Firewall (WAF)**.
+    
+![image](https://github.com/user-attachments/assets/a6be4e12-4c43-495b-b717-a290bba47932)
+
 
 2. **Open HTTPS Port**
 
@@ -83,6 +86,7 @@ curl -X OPTIONS http://192.168.1.100 -I
 # Run an exploit to demonstrate vulnerability (ethical purpose only)
 msfconsole -q -x "use auxiliary/scanner/http/openssl_ccs; set RHOSTS 192.168.1.100; run"
 ```
+![image](https://github.com/user-attachments/assets/096e3912-81f2-4de8-8179-7288c93abe43)
 
 #### Testing SQL Injection Vulnerability
 
@@ -168,6 +172,8 @@ sudo systemctl restart apache2
 
 ### Vulnerability Severity Breakdown
 
+![image](https://github.com/user-attachments/assets/6b10cde9-90f7-4c98-9073-4b8a7dfa24bc)
+![image](https://github.com/user-attachments/assets/57d651bb-358b-493b-a6ea-4d568c25bf6b)
 
 
 ### Nmap Scan Output Example
